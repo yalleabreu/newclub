@@ -347,7 +347,7 @@ const TicketListItemCustom = ({ ticket, setUpdate }) => {
           {ticket.whatsappId && (
             <Badge
               className={classes.Radiusdot}
-              badgeContent={${whatsAppName}}
+              badgeContent={`${whatsAppName}`}
               style={{
                 backgroundColor: "#7d79f2",
                 height: 18,
